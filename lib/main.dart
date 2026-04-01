@@ -52,7 +52,7 @@ class _TelaInicialState extends State<TelaInicial> {
       dificuldade: 'Médio', 
       tempoPreparo: '1h 30min', 
       ingredientes: 'Uva, leite...', 
-      modoPreparo: 'Não sei fazer...'
+      modoPreparo: 'Não sei fazer.. .'
     ),
     
   ];
