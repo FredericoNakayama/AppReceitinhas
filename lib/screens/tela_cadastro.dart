@@ -65,7 +65,7 @@ class _TelaCadastroReceitaState extends State<TelaCadastroReceita> {
                 style: TextStyle(fontWeight: FontWeight.bold)),
             const SizedBox(height: 8),
             DropdownButtonFormField<String>(
-              value: dificuldadeSelecionada,
+              initialValue: dificuldadeSelecionada,
               decoration: const InputDecoration(border: OutlineInputBorder()),
               items: ['Fácil', 'Médio', 'Difícil']
                   .map((nivel) => DropdownMenuItem(
