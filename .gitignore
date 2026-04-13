@@ -1,0 +1,20 @@
+# Build
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+android/.gradle/
+android/local.properties
+
+# iOS
+ios/.dart_tool/
+ios/Flutter/flutter_export_environment.sh
+
+# VS Code
+.vscode/
+
+# Dart
+*.dart_tool
+pubspec.lock
